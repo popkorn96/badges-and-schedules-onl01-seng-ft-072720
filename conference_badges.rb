@@ -8,6 +8,7 @@ def batch_badge_creator(array_names)
   array_names.each do |array_names|
     puts "Hello, my name is #{array_names}."
   end
+  return avery_names
 end
 
 def assign_rooms(room_numbers)
