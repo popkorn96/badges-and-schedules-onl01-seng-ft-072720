@@ -28,7 +28,7 @@ def printer(attendees)
     puts array_names
   end
   assign_rooms(attendees).each do |array_names,room_numbers|
-    puts array_names,room_numbers
+    puts array_names,room_numbers+1
   end
   return conference_badges
 end
