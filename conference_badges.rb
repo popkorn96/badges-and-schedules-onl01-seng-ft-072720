@@ -14,4 +14,5 @@ def assign_rooms(room_numbers)
 room_numbers = [1,2,3,4,5,6,7]
    "Hello, #{name}! You will be assigned to room #{num}!"
 end
+return 
 end
