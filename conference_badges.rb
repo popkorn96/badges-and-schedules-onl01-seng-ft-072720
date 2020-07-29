@@ -22,5 +22,6 @@ end
 return room_assign
 end
 
-def printer
+def printer(attendees)
+  batch_badge_creator(attendees).do
 end
