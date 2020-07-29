@@ -21,7 +21,7 @@ end
 return room_assign
 end
 
-def printer 
+def printer
   return batch_badge_creator
   assign_rooms
 end
