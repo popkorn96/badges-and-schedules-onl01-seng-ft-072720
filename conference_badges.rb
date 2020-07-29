@@ -4,3 +4,4 @@ end
 
 def
   speakers_array["Edsger", "Ada", "Charles","Alan", "Grace", "Linus", "Matz"]
+end
