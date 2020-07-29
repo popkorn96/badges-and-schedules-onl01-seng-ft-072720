@@ -13,6 +13,10 @@ def batch_badge_creator(array_names)
   return badge_greeting
 end
 
+badges =  batch_badge_creator(array_names)
+
+rooms = assign_rooms(assign_rooms)
+
 def assign_rooms(assign_rooms)
   room_assign = []
   assign_rooms.each_with_index do |array_names,room_numbers|
