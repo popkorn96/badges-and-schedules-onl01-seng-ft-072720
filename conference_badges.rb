@@ -3,5 +3,5 @@ def badge_maker(name)
 end
 
 def
-  speakers_array["Edsger", "Ada", "Charles","Alan", "Grace", "Linus", "Matz"]
+  speakers_array = ["Edsger", "Ada", "Charles","Alan", "Grace", "Linus", "Matz"]
 end
