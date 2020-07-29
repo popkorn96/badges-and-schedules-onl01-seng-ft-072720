@@ -22,4 +22,5 @@ end
 return room_assign
 end
 
-def printer()
+def printer(attendees)
+  
