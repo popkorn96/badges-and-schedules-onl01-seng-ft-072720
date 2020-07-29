@@ -30,5 +30,5 @@ def printer(attendees)
   assign_rooms(attendees).each_with_index do |array_names,room_numbers|
     puts array_names,room_numbers
   end
-  return conference_badges
+  conference_badges
 end
