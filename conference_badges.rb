@@ -10,7 +10,7 @@ def batch_badge_creator(array_names)
   array_names.each do |array_names|
     badge_greeting.push("Hello, my name is #{array_names}.")
   end
-  return badge_greeting
+  badge_greeting
 end
 
 
@@ -19,7 +19,7 @@ def assign_rooms(assign_rooms)
   assign_rooms.each_with_index do |array_names,room_numbers|
   room_assign.push("Hello, #{array_names}! You'll be assigned to room #{room_numbers+1}!")
 end
-return room_assign
+room_assign
 end
 
 def printer(attendees)
