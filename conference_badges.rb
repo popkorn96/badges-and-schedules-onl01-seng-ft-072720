@@ -21,6 +21,6 @@ end
 return room_assign
 end
 
-def printer
-  print batch_badge_creator
+def printer(array_names)
+batch_badge_creator.each do 
 end
