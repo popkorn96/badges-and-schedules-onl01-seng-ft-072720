@@ -1,5 +1,5 @@
 array_names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-room_numbers = [0,1,2,3,4,5,6,7]
+room_numbers = [1,2,3,4,5,6,7]
 
 def badge_maker(name)
   "Hello, my name is #{name}."
@@ -17,6 +17,7 @@ def assign_rooms(assign_rooms)
   room_assign = []
   assign_rooms.each_with_index do |array_names,room_numbers|
    room_assign.push("Hello, #{array_names}! You'll be assigned to room #{room_numbers}!")
+   count room_numbers += 1
 end
 return room_assign
 end
