@@ -27,7 +27,7 @@ def printer(attendees)
   batch_badge_creator(attendees).each do |array_names|
     puts array_names
   end
-  assign_rooms(attendees).each do |array_names,room_numbers|
+  assign_rooms(attendees).each_with_index do |array_names,room_numbers|
     puts array_names,room_numbers
   end
   return conference_badges
