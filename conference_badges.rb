@@ -17,7 +17,6 @@ def assign_rooms(assign_rooms)
   room_assign = []
   assign_rooms.each_with_index do |array_names,room_numbers|
    room_assign.push("Hello, #{array_names}! You'll be assigned to room #{room_numbers}!")
-   count room_numbers += 1
 end
 return room_assign
 end
