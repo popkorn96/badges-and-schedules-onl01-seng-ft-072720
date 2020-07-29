@@ -7,6 +7,7 @@ room_numbers = [1,2,3,4,5,6,7]
 
 def batch_badge_creator(array_names)
   array_names.each do |name|
+    return array_names[]
   end
 end
 
